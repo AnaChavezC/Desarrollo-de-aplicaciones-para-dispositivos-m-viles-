@@ -1,6 +1,6 @@
 function Leer() {
     const city = document.getElementById("input").value;
-    const key='0d75d978a972f9e99bd5351a60db3e73';
+    const key='';
     const api_url=`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${key}&units=metric`
     buscar(api_url);
 }
